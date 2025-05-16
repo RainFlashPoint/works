@@ -1,0 +1,10 @@
+{
+  "name": "cf-works",
+  "type": "module",
+  "scripts": {
+    "start": "wrangler dev"
+  },
+  "dependencies": {
+    "graphql": "^16.8.1"
+  }
+}
