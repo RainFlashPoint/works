@@ -90,7 +90,7 @@ export default {
     }
 
     // 默认返回
-    return new Response("Not found", {
+    return new Response("work is ready??", {
       status: 404,
       headers: CORS_HEADERS
     });
