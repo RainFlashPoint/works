@@ -53,7 +53,7 @@ const root= (env) => ({
 
 // CORS 允许所有来源（你也可以改为指定的 origin）
 const CORS_HEADERS = {
-  "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Origin": request.headers.get("Origin") || "*",
   "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
   "Access-Control-Allow-Headers": "Content-Type"
 };
